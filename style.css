@@ -1,0 +1,103 @@
+body{
+  
+     background-color: #3F51B5;
+  
+}
+
+#parent{
+  
+    width: 500px;
+}
+
+#text-input{
+      width: 350px; 
+      margin: 0;
+      display: inline;
+  
+}
+
+.form{
+      padding: 25px 100px 100px 100px;
+      width: 700px;
+      margin-left: 600px;
+      margin-bottom: 10px;
+      background-color: #3F51B5;
+      margin-top: 20px;
+      color: #FFFFFF;
+      font-weight: bold;
+      height: 100%;
+           
+}
+
+#list-parent{
+  
+      width: 500px;
+      background: #FAFAFA;
+      color: #607D8B;
+}
+
+#list{
+      display: block;
+      list-style: none;
+      padding: 0;
+      
+}
+
+#list>li:nth-child(2n){
+  
+      background-color: #BBDEFB;
+}
+
+#list>li{
+      
+      padding: 10px 0 10px 0;
+            
+}
+
+
+#list>li:hover{
+  
+      cursor: default;
+      color: black;
+      
+}
+
+.list-items{
+  
+      padding: 10px;
+          
+}
+
+.list-items > a {
+  
+      color: black;
+      padding: 2px;
+      margin: 2px;
+        
+}
+
+#submit{
+  
+      color: white;
+      margin: 0;
+      padding: 0;
+      
+}
+
+#header{
+  
+      background-color: #03A9F4;
+      padding: 20px 10px 30px 20px;
+}
+
+.footer{
+  
+      font-size: 12px;
+}
+
+.glyphicon-ok{
+  
+      color: white;
+}
+
+
